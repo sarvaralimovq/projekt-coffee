@@ -3,8 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: black;
+}
 .container{
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 10;
+  padding: 10 ;
+}
+ul,ol{
+  list-style-type: none;
+  a{
+    text-decoration: none;
+  }
 }
