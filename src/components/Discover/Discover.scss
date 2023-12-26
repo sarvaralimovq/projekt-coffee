@@ -1,0 +1,54 @@
+.discover__inner {
+    display: flex;
+    justify-content: space-between;
+
+    .discover__left {
+    padding-top: 150px;
+
+        h2 {
+            color: var(--coffee, #603809);
+            font-family: Playfair Display;
+            font-size: 54px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        p {
+            width: 585px;
+            color: #707070;
+            font-family: Playfair Display;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 34px;
+            /* 170% */
+        }
+
+        button {
+            margin-top: 29px;
+            color: #1E1E1E;
+            font-family: Playfair Display;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding: 14px 24px;
+            border-radius: 24px;
+            background: #F9C06A;
+            box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+            border: none;
+        }
+    }
+
+    .discover__right {
+        width: 680px;
+        height: 476px;
+        padding-top: 71px;
+        padding-left: 36px;
+
+        img {
+            object-fit: cover;
+        }
+    }
+}
