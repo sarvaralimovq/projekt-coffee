@@ -1,0 +1,43 @@
+.Invitition{
+    background-image: url('../../img/inv-bcgimg.png');
+    background-repeat: no-repeat;
+    width: 1366px;
+    height: 574px;
+    margin: 0 auto;
+    margin-top: 82px;
+    // filter: blur(1px);
+    flex-shrink: 0;
+    opacity: 0.8;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    // align-items: center;
+}
+.inv-tittle{    
+    color: white;
+    font-size: 54px;
+    font-weight: 700;
+    margin-top: 135px;
+    // margin-left: -63px;
+}
+.inv__info{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+}
+.inv__btn{
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 26px 13px 26px;
+    border-radius: 24px;
+    background-color: #F9C06A;
+    border: none;
+    margin-top: 18px;
+    // margin-left: 73px;
+}
+.inv__cup-img{
+    margin-top: 54px;
+}

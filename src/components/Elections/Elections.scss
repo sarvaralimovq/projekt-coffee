@@ -1,0 +1,135 @@
+.elections__tittle{
+    text-align: center;
+    color: #603809;
+    font-size: 54px;
+    font-weight: 700;
+    margin-top: 82px;
+    font-family: Playfair Display;
+}
+.elections__info{
+    text-align: center;
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #707070;
+}
+.beans{
+    width: 280px;
+    height: 284px;
+    background-color: #FFEED8;
+    img{
+        width: 88px;
+        height: 88px;
+        margin-top: 36px;
+        margin-left: 96px;
+    }
+}
+.card__beans-tittle{
+    color: #603809;
+    font-size: 28px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 39px;
+}
+.card__beans-info{
+    text-align: center;
+    font-size: 20px;
+    color: #707070;
+    font-weight: 400;
+    font-family: Playfair Display;
+    margin-top: 8px;
+}
+.all__cards{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.bean{
+    width: 280px;
+    height: 284px;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    background: #FFF9F1;
+    img{
+        width: 88px;
+        height: 88px;
+        margin-top: 36px;
+        margin-left: 96px;
+    }
+}
+.card__beans-tittle-2{
+    color: #603809;
+    font-size: 28px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 57px;
+}
+.card__beans-info-2{
+    text-align: center;
+    font-size: 20px;
+    color: #707070;
+    font-weight: 400;
+    font-family: Playfair Display;
+    margin-top: 8px;
+}
+.card__beans-tittle-3{
+    color: #603809;
+    font-size: 28px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 49px;
+}
+.card__beans-info-3{
+    text-align: center;
+    font-size: 20px;
+    color: #707070;
+    font-weight: 400;
+    font-family: Playfair Display;
+    margin-top: 8px;
+}
+.card__beans-tittle-4{
+    color: #603809;
+    font-size: 28px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+.card__beans-info-4{
+    text-align: center;
+    font-size: 20px;
+    color: #707070;
+    font-weight: 400;
+    font-family: Playfair Display;
+    margin-top: 8px;
+}
+.elections-p{
+    text-align: center;
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #707070;
+    margin-top: 32px;
+}
+.elections-h5{
+    text-align: center;
+    color: #603809;
+    font-size: 30px;
+    font-family: Playfair Display;
+    font-weight: 700;
+}
+.elections-btn{
+    margin-left: 530px;
+    background-color: #F9C06A;
+    padding: 14px 41px 13px 41px;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+    margin-top: 24px;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Playfair Display;
+}
