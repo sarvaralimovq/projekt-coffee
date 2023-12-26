@@ -9,10 +9,10 @@ function App() {
     <div className="App">
      <Header/>
      <Hero/>
-      <Menu/>
      <Discover/>
+      <Menu/>
     </div>
-  );
+  )
 }
 
 export default App;
