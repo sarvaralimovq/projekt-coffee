@@ -1,3 +1,69 @@
-.hero__inner{
+.Hero {
+    background-image: url('../../img/hero-bg.png');
+    background-repeat: no-repeat;
+    height: 768px;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.hero__inner {
+    padding-top: 200px;
     
+    width: 100%;
+    display: flex;
+    justify-content: start;
+
+    .hero__left {
+        .hero__left-top {
+            h4 {
+                color: #FFF;
+                font-family: Playfair Display;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+
+        .hero__left-center {
+            h1 {
+                color: #FFF;
+                font-family: Clicker Script;
+                font-size: 220px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+
+            }
+        }
+
+        .hero__left-bottom {
+            width: 527px;
+
+            p {
+                color: #FFF;
+                font-family: Playfair Display;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 34px;
+            }
+        }
+
+        .hero__left-button {
+            button {
+                border-radius: 24px;
+                background: #F9C06A;
+                box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+                color: #1E1E1E;
+                font-family: Playfair Display;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                border: none;
+                padding: 14px 16px;
+            }
+        }
+    }
 }
