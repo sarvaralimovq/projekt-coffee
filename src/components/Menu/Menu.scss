@@ -1,0 +1,116 @@
+.menu__tittle{
+    text-align: center;
+    color: #603809;
+    font-size: 54px;
+    font-weight: 700;
+    margin-top: 82px;
+}
+.about__tittle{
+    text-align: center;
+    color: #707070;
+    line-height: 34px;
+    font-size: 20px;
+    margin-top: 16px;
+    font-weight: 400;
+}
+.card-1{
+    width: 280px;
+    height: 364px;
+    margin-top: 38px;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 222px;
+    }
+}
+.menu__card__about-1{
+    color: #603809;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 14px;
+    margin-left: 79px;
+}
+.menu__card__compound{
+    color: #707070;
+    margin-left: 63px;
+    font-size: 16px;
+    margin-top: 6px;
+}
+.menu__card__price{
+    color: #603809;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 117px;
+    margin-top: 6px;
+}
+.menu__btn{
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 26px 13px 26px;
+    border-radius: 24px;
+    background-color: #F9C06A;
+    border: none;
+    margin-top: 18px;
+    margin-left: 73px;
+}
+.card-2{
+    width: 280px;
+    height: 364px;
+    margin-top: 38px;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 222px;
+    }
+}
+.menu__card__about-2{
+    color: #603809;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 14px;
+    margin-left: 88px;
+}
+.card-3{
+    width: 280px;
+    height: 364px;
+    margin-top: 38px;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 222px;
+    }
+}
+.menu__card__about-3{
+    color: #603809;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 14px;
+    margin-left: 87px;
+}
+.card-4{
+    width: 280px;
+    height: 364px;
+    margin-top: 38px;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 222px;
+    }
+}
+.menu__card__about-4{
+    color: #603809;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 14px;
+    margin-left: 94px;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
