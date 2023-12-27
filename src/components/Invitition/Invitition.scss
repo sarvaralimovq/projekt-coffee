@@ -1,43 +1,69 @@
-.Invitition{
-    background-image: url('../../img/inv-bcgimg.png');
-    background-repeat: no-repeat;
-    width: 1366px;
-    height: 574px;
-    margin: 0 auto;
-    margin-top: 82px;
-    // filter: blur(1px);
-    flex-shrink: 0;
-    opacity: 0.8;
-}
-.wrapper{
-    display: flex;
-    justify-content: space-around;
-    // align-items: center;
-}
-.inv-tittle{    
-    color: white;
-    font-size: 54px;
-    font-weight: 700;
-    margin-top: 135px;
-    // margin-left: -63px;
-}
-.inv__info{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 34px;
-}
-.inv__btn{
-    color: #1E1E1E;
-    font-size: 16px;
-    font-weight: 700;
-    padding: 14px 26px 13px 26px;
-    border-radius: 24px;
-    background-color: #F9C06A;
-    border: none;
-    margin-top: 18px;
-    // margin-left: 73px;
-}
-.inv__cup-img{
-    margin-top: 54px;
-}
+         .Invitition {
+             z-index: 99;
+             background-image: url('../../img/inv-bcgimg.png');
+             background-repeat: no-repeat;
+             width: 1366px;
+             height: 574px;
+             margin: 0 auto;
+             margin-top: 82px;
+             // filter: blur(1px);
+             flex-shrink: 0;
+             position: relative;
+             // opacity: 0.8;
+             .invitition__bg-color {
+                 opacity: 0.8;
+                 background: rgba(96, 56, 9, 1);
+                 // background-color: red;
+                 width: 100%;
+                 height: 100%;
+                 position: absolute;
+                 left: 0;
+                 top: 0;
+                 z-index: 1;
+             }
+         }
+
+         .wrapper {
+          
+            width: 100%;
+             position: absolute;
+             display: flex;
+             justify-content: space-around;
+             // align-items: center;
+             z-index: 99;
+             left: 0;
+             top: 0;
+            
+         }
+
+         .inv-tittle {
+             color: white;
+             font-size: 54px;
+             font-weight: 700;
+             margin-top: 135px;
+             // margin-left: -63px;
+         }
+
+         .inv__info {
+             color: #fff;
+             font-size: 20px;
+             font-weight: 400;
+             line-height: 34px;
+         }
+
+         .inv__btn {
+             color: #1E1E1E;
+             font-size: 16px;
+             font-weight: 700;
+             padding: 14px 26px 13px 26px;
+             border-radius: 24px;
+             background-color: #F9C06A;
+             border: none;
+             margin-top: 18px;
+             // margin-left: 73px;
+         }
+
+         .inv__cup-img {
+             margin-top: 54px;
+             
+         }

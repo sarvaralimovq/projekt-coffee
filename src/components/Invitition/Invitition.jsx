@@ -7,7 +7,11 @@ import Cup from '../../img/cup.png'
 function Invitition() {
   return (
     <div className='Invitition'>
+      <div className="invitition__bg-color">
+          
+          </div>
       <div className="container">
+        
       <div className="wrapper">
       <div className="left-wrap">
         <h2 className='inv-tittle'>Get a chance to have an <br /> Amazing morning</h2>
