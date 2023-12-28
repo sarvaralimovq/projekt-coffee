@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Invitition from './components/Invitition/Invitition';
 import Menu from './components/Menu/Menu';
+import Perfection from './components/Perfection/Perfection';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Menu/>
       <Elections/>
       <Invitition/>
+      <Perfection/>
     </div>
   )
 }
